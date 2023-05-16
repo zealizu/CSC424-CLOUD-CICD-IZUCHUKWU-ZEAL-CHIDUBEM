@@ -43,7 +43,7 @@ If both strings end at the same length, then they are equal. Otherwise, the long
  * Comparison of different types When comparing values of different
  types, JavaScript converts the values to numbers
  */
- console.log( '8' > 1 ); // true, string '8' becomes a number 2
+ console.log( '8' > 1 ); // true, string '8' becomes a number 8
  console.log( '01' == 1 ); // true, string '01' becomes a number 1
 console.log( true == 1 ); // true
 console.log( false == 0 ); // true 

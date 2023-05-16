@@ -33,8 +33,8 @@ let hour = 9;
 if (hour < 10 || hour > 18) {
   alert( 'The office is closed.' );
 }
-
 ;
+
 let pass = prompt("Enter a password");
 
 if (Number(pass) > 2 || pass === "8") {

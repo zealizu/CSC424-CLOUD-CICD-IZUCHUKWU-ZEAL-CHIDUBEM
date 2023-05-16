@@ -24,9 +24,8 @@ function showMessage() {
     let message = "WELCOME TO CSC 424 VIRTUAL CLASS"; // local variable
   
     alert( message );
-  }
-  
-  showMessage(); 
+  };
+showMessage()
   
 
   /** Outer/global variables
@@ -38,7 +37,6 @@ function showMessage1() {
   alert(course1);
 }
 showMessage1()
-alert('global var modified to >> ', course) //the value was modified by the function
 
 
 //FUNCTIONS WITH PARAMETER AND ARGUMENTS 
@@ -54,26 +52,27 @@ We declare functions listing their parameters, then call them passing arguments.
  *  */
 
 function addNumbers(num1, num2, num3) {
-    return (num1 + num2)*3;
+    return (num1 + num2)*num3;
   }
-  
+
   // Example usage:
   let result = addNumbers(2, 3, 5);// invoking/calling the function and passing argumment
   console.log(result); // Output: 5
 
+ 
 
-  // mult using function 
+  // multiplication  using function 
 
 function multiplier(num, end){
    
     for(let d=1; d <= parseInt(end); d++)
     {
       result = parseInt(num) * d
-      return(num , "*",  d , "=", result);
+      console.log(num , "*",  d , "=", result);
     }
   
   }
 
 let num1 = prompt(' ENTER A STARTING NUMBER ')
 let ending2 = prompt('ENTER END OF MULT TABLE ')
-console.log(multiplier(num1,ending2))
+multiplier(num1,ending2)

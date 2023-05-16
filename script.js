@@ -5,6 +5,8 @@ let y = 45.0;
 let z  = "csc 424";
 let v = false;
 let l = null;
+let d = undefined
+let t ;
 
 /** OUTPUT AND INTERACTION TYPE */
 
@@ -14,12 +16,14 @@ console.log(x,y, z, v , l)
 let user = "peter"
 alert(" welcome to csc 424 ${user}")
 
-/**This is a function prompt accepts two arguments: 
+/**PROMPT 
+ * This is a function prompt accepts two arguments: 
  * It shows a modal window with a text message, an input
  *  field for the visitor, and the buttons OK/Cancel.
  * SYNTAX = prompt(title, [default]);
 */
 let ask = prompt("what day of the week is today ? ", "TUESDAY ")
+alert(ask)
 
 /** The function confirm shows a modal window with a question and two buttons: OK and Cancel.
 The result is true if OK is pressed and false otherwise */
@@ -49,7 +53,7 @@ There are also cases when we need to explicitly convert
 alert(typeof(str)); // string
 
 let num = Number(str); // becomes a number 123
-alert(typeof(num)); 
+alert(typeof(num + 5)); 
 
 /**OPERATORS
  * Basic operators, maths
@@ -60,11 +64,11 @@ Before we move on, let’s grasp some common terminology.
 An operand – is what operators are applied to. For instance, in the multiplication of 5 * 2 there are two operands: the left operand is 5 and the right operand is 2. Sometimes, people call these “arguments” instead of “operands”.
 
 An operator is unary if it has a single operand. 
+let x = + 5
 For example, the unary negation - reverses the sign of a number:
 
-
  An operator is binary if it has two operands. The same minus exists in binary form as well:
-
+let y = x1 - x2
 
 * The following math operations are supported:
 
