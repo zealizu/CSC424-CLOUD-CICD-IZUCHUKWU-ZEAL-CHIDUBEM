@@ -1,6 +1,10 @@
 
 /** FUNCTION 
+<<<<<<< HEAD
  * A function is9 a block of code that performs a specific task, 
+=======
+ * A function is a block of code that performs a specific task, 
+>>>>>>> origin/master
  * and it can be reused throughout your code.
  * 
  * Functions are the main “building blocks” of the program. They allow the code 
