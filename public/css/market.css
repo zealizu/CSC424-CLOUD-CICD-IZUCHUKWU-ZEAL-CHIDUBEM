@@ -1,0 +1,49 @@
+.welcome{
+    display: block;
+    background-color: gainsboro;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+.wel-text{
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: gainsboro;
+    justify-content: space-evenly;
+    justify-items: ;
+    padding: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+   
+    margin-top: 50px;
+
+}
+.first-item{
+    background-color:white;
+    height: 150px;
+        width: 150px;
+        border-radius: 10%;
+    
+}
+.sec-item{
+    background-color: white;
+        height: 150px;
+        width: 150px;
+        border-radius: 10%;
+}
+.third-item{
+background-color: white;
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+}
+
+.fourth-item{
+    background-color: white;
+        height: 150px;
+        width: 150px;
+        border-radius: 10%;
+}
